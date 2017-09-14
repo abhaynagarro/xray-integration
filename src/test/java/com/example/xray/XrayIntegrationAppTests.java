@@ -27,7 +27,7 @@ public class XrayIntegrationAppTests {
 	@Test
 	public void testDisplayFailed() {
 		String result = app.displayFailed();
-		assertSame("Test case testDisplayFailed failed", "success", result);
+		assertSame("Test case testDisplayFailed failed", "fail", result);
 	}
 
 }

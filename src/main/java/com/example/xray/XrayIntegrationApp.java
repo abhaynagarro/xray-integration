@@ -10,11 +10,4 @@ public class XrayIntegrationApp {
 		SpringApplication.run(XrayIntegrationApp.class, args);
 	}
 
-	public void displaySuccess() {
-		System.out.println("Hello XRay");
-	}
-
-	public String displayFailed() {
-		return "fail";
-	}
 }

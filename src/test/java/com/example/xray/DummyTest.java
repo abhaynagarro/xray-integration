@@ -24,7 +24,7 @@ public class DummyTest {
 	public void testDisplayFailed() {
 
 		String result = dummy.displayFailed();
-		assertSame("Test case testDisplayFailed failed", "fail", result);
+		assertSame("Test case testDisplayFailed failed", "success", result);
 
 	}
 
